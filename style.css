@@ -9,11 +9,64 @@ body {
   line-height: 1.9em;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
+a {
+}
+.container {
+  width: 80%;
+  margin: auto;
 }
 
-.Moneer.should.watch.whiplash.with.me{
-    background-color: black;
+.Moneer.should.watch.whiplash.with.me {
+  background-color: black;
+
+  border-right: 5px green solid;
+  border-left: 5px green solid;
+  border-top: 5px green solid;
+  border-bottom: 5px green solid;
+  /*same as above*/
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+  border: 5px green solid;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  /*same as above*/
+  padding: 20px;
+
+  margin-top: 20px;
+  margin: 20px 0;
+}
+.Moneer.should.watch.whiplash.with.me h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+
+.Moneer.should.watch.whiplash.with.us {
+  border: 3px dotted black;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border: 1px green solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: square;
+  list-style: none;
 }
